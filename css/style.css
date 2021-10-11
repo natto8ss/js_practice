@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto;
+}
+#main_wrap{
+    margin: 0 auto;
+    text-align: center;
+}
+h1{
+    color: #2571f7;
+    font-size: 1.6em;
+    margin-bottom: 10px;
+}
+#text_box input{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    font: inherit;
+    outline: none;
+    margin: 0 auto;
+}
+#text_box input[type="text"]{
+    padding: 5px;
+    border: 1px solid #333;
+}
+#text_box input[type="button"]{
+    padding: 5px;
+    border-radius: 5px;
+    background: cornflowerblue;
+    color: #fff;
+}
+.area{
+    width: 50%;
+    background: rgb(213, 227, 255);
+    margin-top: 30px;
+    padding: 20px;
+}
+.area p{
+    display: block;
+    padding: 5px 10px;
+    background: #fff;
+}
+.area p:nth-child(n + 2){
+    margin-top: 5px;
+}
