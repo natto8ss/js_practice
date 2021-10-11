@@ -26,8 +26,10 @@
         function onClick(){
             //テキストボックスの値を取得
             var value = document.getElementById("text").value;
+            var element = document.getElementById('area');
             //値を設定する
-            document.querySelector('.area').innerHTML = value;
+            document.querySelector('#area').innerHTML = '<p>' + value + '</p>' ;
+            element.insertAdjacentHTML('afterbegin', '<p>' + value + '</p>');
             }
     </script>
 </head>
@@ -38,7 +40,9 @@
             <input type="text" id="text"/>
             <input type="button" value="投稿" onclick="onClick();"/>
         </form>
-        <p class="area">ここに表示されます。</p>
+        <div id="area">
+            <p>ここに表示されます。</p>
+        </div>
     </div>
     </body>
 
