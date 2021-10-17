@@ -43,7 +43,23 @@ h1{
     display: block;
     padding: 5px 10px;
     background: #fff;
+    position: relative;
 }
 .area p:nth-child(n + 2){
     margin-top: 5px;
+}
+
+button{
+    position: relative;
+    top: -30px;
+    right: 5px;
+    float: right;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: transparent;
+    border: none;
+    background: #333;
+    color: #fff;
+    padding: 2px 5px;
 }
